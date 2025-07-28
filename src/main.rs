@@ -83,32 +83,19 @@ fn closest_stage(lat: f64, lon: f64) -> String {
 
 static STAGES: Lazy<Vec<Stage>> = Lazy::new(|| {
     vec![
-        Stage::new("Datscha", 53.30958, 12.73871),
         Stage::new("HPTTRSN", 53.30959, 12.73694),
         Stage::new("Turmbühne", 53.30864, 12.73732),
-        Stage::new("Cloud Cuckoo", 53.30832, 12.73679),
         Stage::new("Dubstation", 53.30766, 12.73471),
         Stage::new("Casino", 53.30659, 12.73436),
-        Stage::new("Workshop", 53.30573, 12.73363),
-        Stage::new("Content", 53.30399, 12.73192),
         Stage::new("FreiKörperKüste", 53.30399, 12.73192),
-        Stage::new("Toto Klub", 53.30203, 12.7324),
-        Stage::new("Platz der Kosmonauten", 53.31133, 12.73571),
         Stage::new("Tanzwüste", 53.31186, 12.73839),
         Stage::new("Stoners Garden", 53.31189, 12.74076),
-        Stage::new("Roter Platz", 53.31141, 12.74176),
         Stage::new("Trancefloor", 53.31224, 12.74221),
         Stage::new("Rootsbase", 53.31198, 12.74359),
         Stage::new("Extravaganza", 53.31059, 12.74393),
         Stage::new("Sonnendeck", 53.31089, 12.74322),
         Stage::new("Palapa", 53.30974, 12.74381),
-        Stage::new("Subardo", 53.31008, 12.74127),
-        Stage::new("Palast der Republik", 53.30872, 12.7414),
-        Stage::new("Platz der Republik", 53.30875, 12.73954),
-        Stage::new("Velvet Soup", 53.31057, 12.74991),
         Stage::new("Panne Eichel", 53.31049, 12.75295),
-        Stage::new("Supporterbackstage", 53.30393, 12.73138),
-        Stage::new("Camp", 53.30211, 12.72999),
     ]
 });
 

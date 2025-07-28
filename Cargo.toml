@@ -3,11 +3,9 @@ name = "fusion-gpx"
 version = "0.1.0"
 edition = "2021"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
 [dependencies]
-chrono = "0.4.19"
-cli-table = "0.4.7"
-geoutils = "0.5.0"
-gpx = "0.8.6"
-once_cell = "1.13.0"
+chrono = "0.4"
+cli-table = "0.5"
+geoutils = "0.5"
+gpx = "0.10"
+once_cell = "1"
